@@ -1,0 +1,104 @@
+:root{
+    --primary-color:#4c4ab3;
+}
+
+body {
+    background: #F2F2F2;
+    margin: 0;
+    font-family:'Poppins';
+    
+
+}
+
+.navbar{
+    background:white;
+    padding:1em;
+    display:flex;
+    
+}
+.navbar .container{
+    display:grid;
+    grid-template-columns: 200px auto;
+    justify-content:unset;
+    text-align:center;
+}
+.logo{
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(71, 71, 71);
+    font-size:1.2em
+}
+span{
+    color:var(--primary-color)
+}
+a{
+    color: #444444;
+    font-size: 1em;
+    padding:.1em 1em;
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+ul.primary-nav{
+    margin:1em;
+}
+.navbar nav{
+    display:flex;
+    justify-content:space-between ;
+    background: none;
+    position:unset;
+    height:auto;
+    width:100%;
+    padding:0;
+
+}
+section{
+    padding:5em 2em
+    
+    
+}
+.hero{
+    text-align:center;
+}
+
+    
+
+.subhead{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    letter-spacing: .3em;
+    font-size: 1.2em;
+}
+.explore{
+    color: rgb(63, 160, 103);
+    font-weight: bold;
+
+}
+.hero-cta{
+    padding-bottom: 1em;
+    text-align:center;
+}
+.secondarynav{
+   
+    text-align:right;
+}
+
+.Header-learn{
+    background:white;
+    padding:1em;
+    display:flex;
+    width:auto;
+    
+
+}
+.Title-learn{
+    text-align:cgenter;
+    margin: 0 auto;
+
+}
